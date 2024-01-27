@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title> age </title>
+    <!-- display=swap - влияет на оптимизацию -->
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrapper">
+  <header>
+    <div class="header__top">
+     <div class="header__top_container container flex">
+        <nav class="header__left">
+          <ul class="flex">
+            <li class="position40">
+              <a class="logo" href="#">
+                <img src="/images/1_logo.svg" alt="logo">
+              </a>
+            </li>
+            <li class="position24">
+              <a class="link__top" href="#">Главная</a>
+            </li>
+            <li class="position24">
+              <a class="link__top" href="#">О компании</a>
+            </li>
+            <li class="position24">
+              <a class="link__top" href="#">Каталог</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__right"> 
+          <ul class="flex">
+            <li class="position10">
+              <a class="link__top" href="#">
+                <img src="/images/2_phone.png" alt="phone">
+              </a>
+            </li>
+            <li class="position40">
+              <a class="link__top" href="#">+7(965)084-29-29</a>
+            </li>
+            <li class="position40">
+              <a class="link__top" href="#">
+                <img src="/images/3_heart.svg" alt="heart"></a>
+              </li>
+            <li class="position40">
+              <button class="bth link">
+                <img src="/images/4_buying.png" alt="корзинка">
+                <span>Пусто</span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="header-mini">
+        <a class="header-mini__menu" href="#">
+          <img src="/images/5_byryndyk.svg" alt="byryndyk">
+        </a>
+        <a class="header-mini__logo link__top" href="#">
+          <img src="/images/1_logo.svg" alt="logo">
+        </a>
+        <a class="header-mini__buying link__top" href="#">
+          <img src="/images/4_buying.png" alt="корзина">
+        </a>
+      </div>
+    </div>
+    <div class="header__bottom">
+      <div class="header__bottom_container container flex">
+        <nav class="header__bottom_left  header__left">
+          <ul class="flex">
+            <li class="header__bottom_position position10">
+              <a class="link__bottom" href="#">
+                <img src="/images/12_три_полоски.svg" alt="">
+              </a>
+              </li>
+            <li class="header__bottom--position position24">
+              <a class="link__bottom" href="#">
+                <span>Каталог</span>
+              </a>
+            </li>
+            <li class="header__bottom--position position24">
+              <a class="link__bottom" href="#">
+                <span>Стройматериалы</span>
+              </a>
+            </li>
+            <li class="header__bottom--position position24">
+              <a class="link__bottom" href="#">
+                <span>Инструменты</span>
+              </a>
+            </li>
+            <li class="header__bottom--position position24">
+              <a class="link__bottom" href="#">
+                <span>Электрика</span>
+              </a>
+            </li>
+            <li class="header__bottom--position position24">
+              <a class="link__bottom" href="#">
+                <span>Интерьер и одежда</span>
+              </a>
+            </li>
+           </ul>
+        </nav>
+        <div class="header__bottom_right  flex">
+          <div class="header__bottom_searth  position24">
+            <input type="text" 
+            size="39" 
+            placeholder="Поиск, например Круг зачистной"
+            image="./icon/search.png" 
+            maxlength="30"/>
+            <a href="#"><img src="/images/13_search.png" alt="lupa"></a>
+          </div>  
+          <div class="header__bottom_location">
+            <img src="/images/14_mappin.svg" alt="">
+            <a class="location__link" href="#">Москва</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="banner flex">
+      <div class="banner__img-man">
+        <img src="/images/15_banner.png" alt="">
+      </div>
+      <div class="banner__img-vector">
+        <img src="/images/28_vector.png" alt="">
+      </div>
+      <h1>Инструмент для вашего бизнеса</h1>
+    </div>
+
+    <section class="advantages container flex">
+      <div class="advantages__brick flex">
+        <div>
+          <img src="/images/16_wall.png" alt="">
+        </div>
+        <p><span>Большой ассортимент <br> </span>
+        строительных материалов всегда в наличии</p>
+      </div>
+      <div class="advantages__brick flex">
+        <div>
+          <img src="/images/17_delivery.png" alt="">
+        </div>
+        <p><span>Доставка стройматериалов <br> 
+        </span>в течении четырех часов или в любое удобное время</p>
+      </div>
+      <div class="advantages__brick flex">
+        <div>
+          <img src="/images/18_quality.png" alt="">
+        </div>
+        <p>Mногоуровневая <span>система управления качеством</span>
+           по стандарту ISO 9001</p>
+      </div>
+    </section>
+    <section class="catalog container">
+      <div class="pages"> 
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>4</button>
+        <button>5</button>
+      </div>
+      <div class="catalog__positions container flex">
+        <article class="position1">
+          <h2>Строительный отделочный <br>инструмент</h2>
+          <div class="position1__image">
+            <img src="/images/19.png" alt="">
+          </div>
+          <div class="go-to-catalog flex pos1"> 
+            <span>Перейти в каталог</span> 
+            <img src="/images/24_go-to.png" alt="">
+          </div>
+        </article>
+
+        <article class="position2 flex">
+          <div class="position2__top">
+            <h2>Эмали</h2>
+            <div class="position2__top_image">
+              <img src="/images/20.png" alt="">
+            </div>
+            <div class="go-to-catalog flex pos2"> 
+              <span>Перейти в каталог</span> 
+              <img src="/images/24_go-to.png" alt="">
+            </div>
+          </div>
+          <div class="position2__bottom">
+            <h2>Пены, клеи и <br>герметики</h2>
+            <div class="position2__bottom_image">
+              <img src="/images/22.png" alt="">
+            </div>
+            <div class="go-to-catalog flex pos3"> 
+              <span>Перейти в каталог</span> 
+              <img src="/images/24_go-to.png" alt="">
+            </div>
+          </div>
+        </article>
+
+        <article class="position3 flex">
+          <div class="position3__top">
+            <h2>Лакокрасочные материалы</h2>
+            <div class="position3__top_image">
+              <img src="/images/21.png" alt="">
+            </div>
+            <div class="go-to-catalog flex pos4"> 
+              <span>Перейти в каталог</span> 
+              <img src="/images/24_go-to.png" alt="">
+            </div>
+          </div>
+          <div class="position3__bottom">
+            <h2>Розетки и выключатели</h2>
+            <div class="position3__bottom_image">
+              <img src="/images/23.png" alt="">
+            </div>
+            <div class="go-to-catalog flex pos5"> 
+              <span>Перейти в каталог</span> 
+              <img src="/images/24_go-to.png" alt="">
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+
+    <section class="popular container">
+      <div class="popular__name flex">
+        <div>
+          <h3>Популярные товары</h3>
+        </div>
+        <div>
+          <h4>
+            <span>Посмотреть</span> 
+            все товары
+          </h4>
+        </div>
+      </div>
+      <button>
+        <img src="/images/27 стрелочка.svg" alt="">
+      </button>
+      <button>
+        <img src="/images/27 стрелочка.svg" alt="">
+      </button>
+      
+      <div class="popular__cards container">
+        <article class="product-card">
+          <div>
+            <div>
+              <span>Новинка</span>
+            </div>
+            <div>
+              <span>%</span>
+            </div>
+            <div>
+              <img src="/images/26.png" alt="like">
+            </div>
+          </div>
+          <div>
+            <img src="/images/25.png" alt="">
+          </div>
+          <div>
+            Круг зачистной 125х6х22
+          </div>
+          <div>
+            Артикул 00004
+          </div>
+          <div>
+            <div>
+              Цена за штуку
+            </div>
+            <div>
+              <div>52 руб.</div>
+              <div>48 руб.</div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <div>
+                Количество
+              </div>
+              <div>
+                <button>-</button>
+                <output>1</output>
+                <button>+</button>
+              </div>
+            </div>
+            <button>В корзину</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div>
+            <div>
+              <span>Новинка</span>
+            </div>
+            <div>
+              <span>%</span>
+            </div>
+            <div>
+              <img src="/images/26.png" alt="like">
+            </div>
+          </div>
+          <div>
+            <img src="/images/25.png" alt="">
+          </div>
+          <div>
+            Круг зачистной 125х6х22
+          </div>
+          <div>
+            <span>Артикул 00004</span>
+          </div>
+          <div>
+            <div>
+              Цена за штуку
+            </div>
+            <div>
+              <div>52 руб.</div>
+              <div>48 руб.</div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <div>
+                Количество
+              </div>
+              <div>
+                <button>-</button>
+                <output>1</output>
+                <button>+</button>
+              </div>
+            </div>
+            <button>В корзину</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div>
+            <div>
+              <span>Новинка</span>
+            </div>
+            <div>
+              <span>%</span>
+            </div>
+            <div>
+              <img src="/images/26.png" alt="like">
+            </div>
+          </div>
+          <div>
+            <img src="/images/25.png" alt="">
+          </div>
+          <div>
+            Круг зачистной 125х6х22
+          </div>
+          <div>
+            Артикул 00004
+          </div>
+          <div>
+            <div>
+              Цена за штуку
+            </div>
+            <div>
+              <div>52 руб.</div>
+              <div>48 руб.</div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <div>
+                Количество
+              </div>
+              <div>
+                <button>-</button>
+                <output>1</output>
+                <button>+</button>
+              </div>
+            </div>
+            <button>В корзину</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div>
+            <div>
+              <span>Новинка</span>
+            </div>
+            <div>
+              <span>%</span>
+            </div>
+            <div>
+              <img src="/images/26.png" alt="like">
+            </div>
+          </div>
+          <div>
+            <img src="/images/25.png" alt="">
+          </div>
+          <div>
+            Круг зачистной 125х6х22
+          </div>
+          <div>
+            Артикул 00004
+          </div>
+          <div>
+            <div>
+              Цена за штуку
+            </div>
+            <div>
+              <div>52 руб.</div>
+              <div>48 руб.</div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <div>
+                Количество
+              </div>
+              <div>
+                <button>-</button>
+                <output>1</output>
+                <button>+</button>
+              </div>
+            </div>
+            <button>В корзину</button>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+
+  </main>
+  <footer class="footer"> Футер </footer>
+</div>
+<script src="./index.js"></script>
+</body>
+</html>
